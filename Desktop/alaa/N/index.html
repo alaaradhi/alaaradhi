@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>News</title>
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+  <div class="container-fluid py-5">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="d-flex justify-content-between bg-white white">
+    <div class="d-flex justify-content-center bg-primary py-2 text-white px-1 news">
+    <span class="d-flex align-items-center bg-green green">احدث الاخبار:</span>
+    </div>
+    <ul class="scroll" >
+    <li>
+    <span class="dot"></span> 
+    <a href="#">Hardik Pandya bowls at high speed in 1st match as Gujarat Titans captian</a> 
+    </li>
+    <li>
+    <span class="dot"></span> 
+    <a href="#">Will Smith-Chris Rock’s punch drama aside, why Oscars 2022 made Twitter cringe </a> 
+    </li>
+    <li>
+    <span class="dot"></span> 
+    <a href="#">Sensex rises 230 points, Nifty up at 17,222 | List of top gainers</a> 
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>  
+  <section>
+    <div  class="wrapper">
+      <div class="button" >
+        <div class="icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <span>Instagram</span>
+      </div>
+      <div class="button" >
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <span>Facebook</span>
+      </div>
+      <div class="button" >
+        <div class="icon">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <span>Twitter</span>
+      </div>
+      <div class="button" >
+        <div class="icon">
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <span>Linkedin</span>
+      </div>
+      <div class="button" >
+        <div class="icon">
+          <i class="fab fa-youtube"></i>
+        </div>
+        <span>YouTube</span>
+      </div>
+     
+    </div>
+    
+  </section>
+  
+    <nav>
+        <input type="checkbox" id="chk"/>
+        <label for="chk" class="bars"> 
+            <i class="fa fa-bars"></i>
+        </label>
+       <ul>
+           <li><a class='active' href="#">اخبار العربية</a></li>
+           <li><a href="#">اخبار العالمية</a></li>
+           <li><a href="#">اقتصاد</a></li>
+           <li><a href="#">رياضة</a></li>
+           <li><a href="#">ترفيه</a></li>
+           <li><a href="#">تكنولوجيا</a></li> 
+ 
+       </ul>
+    </nav>
+    <div>
+      <h1>اهم الاخبار</h1>
+     <div class="carousel">
+       <ul class="slides">
+         <input type="radio" name="radio-buttons" id="img-1" checked />
+         <li class="slide-container">
+           <div class="slide-image">
+             <img src="./img/1.jpg">
+           </div>
+           <div class="carousel-controls">
+             <label for="img-3" class="prev-slide">
+               <span>‹</span>
+             </label>
+             <label for="img-2" class="next-slide">
+               <span>›</span>
+             </label>
+           </div>
+         </li>
+         <input type="radio" name="radio-buttons" id="img-2" />
+         <li class="slide-container">
+           <div class="slide-image">
+             <img src=".//img/2.jpg">
+           </div>
+           <div class="carousel-controls">
+             <label for="img-1" class="prev-slide">
+               <span>‹</span>
+             </label>
+             <label for="img-3" class="next-slide">
+               <span>›</span>
+             </label>
+           </div>
+         </li>
+         <input type="radio" name="radio-buttons" id="img-3" />
+         <li class="slide-container">
+           <div class="slide-image">
+             <img src="./img/3.jpg">
+           </div>
+           <div class="carousel-controls">
+             <label for="img-2" class="prev-slide">
+               <span>‹</span>
+             </label>
+             <label for="img-1" class="next-slide">
+               <span>›</span>
+             </label>
+           </div>
+         </li>
+         <div class="carousel-dots">
+           <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+           <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+           <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+         </div>
+       </ul>
+     </div>
+   </div>
+   
+<section class="product"> 
+  <h2 class="product-category">منوعات</h2>
+  <button class="pre-btn"><img src="./img/arrow.png" alt=""></button>
+  <button class="nxt-btn"><img src="./img/arrow.png" alt=""></button>
+  <div class="product-container">
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-1.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-2.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-3.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-4.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-5.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-1.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-2.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-3.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-4.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="./img/img-5.jpg" class="product-thumb" alt="">
+              <button class="card-btn"></button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand"></h2>
+              <p class="product-short-description"></p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<h1>تقارير</h1>
+   <div class="container1">
+     <div class="item">
+       <h2>اهم التقارير</h2>
+       <p>
+        
+       </p>
+       <h4>Element</h4>
+     </div>
+     <div class="item">
+       <h2>اهم التقارير</h2>
+       <p>
+        
+       </p>
+       <h4>Element</h4>
+     </div>
+     <div class="item">
+       <h2>اهم التقارير</h2>
+       <p>
+        
+       </p>
+       <h4>Element</h4>
+     </div>
+     <div class="item">
+       <h2>اهم التقارير</h2>
+       <p>
+       
+       </p>
+       <h4>Element</h4>
+     </div>
+     <div class="item">
+       <h2>اهم التقارير</h2>
+       <p>
+        
+       </p>
+       <h4>Element</h4>
+     </div>
+   </div>
+   <div class="container2">
+    <div class="row g-3">
+        <h1>منوعات</h1>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="./img/europe.jpg" class="card-img-top" alt="A Street in Europe">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="./img/london.jpg" class="card-img-top" alt="London">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="./img/new-york.jpg" class="card-img-top" alt="New York">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container3">
+  <div class="footer">
+      
+      <div class="footer-content">
+          <div class="footer-main">
+
+              <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                  <a href="#"><i class="fa-brands fa-square-twitter"></i></i></a>
+              </div>
+          </div>
+          <div class="links">
+              <p>Information</p>
+              <a href="" class="link">Our company</a>
+              <a href="" class="link">About</a>
+              <a href="" class="link">Careers</a>
+              <a href="" class="link">Contact us</a>
+              <a href="" class="link">Support</a>
+          </div>
+          <div class="links">
+              <p>Application</p>
+              <a href="" class="link">Download</a>
+              <a href="" class="link">Services</a>
+              <a href="" class="link">How to use</a>
+              <a href="" class="link">Support</a>
+          </div>
+          <div class="links">
+              <p>API</p>
+              <a href="" class="link">Documentation</a>
+              <a href="" class="link">Developer</a>
+              <a href="" class="link">Api</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+   <script src="./script.js"></script>
+  
+
+
+<script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+</body>
+</html>
